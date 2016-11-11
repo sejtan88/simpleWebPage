@@ -26,42 +26,22 @@
             <?php include("inc/head.inc.php"); ?>
                 <div class="container flexbox">
                     <div class="flex-child">
-                        <span>Autoelektričarska radnja <strong>BOJAC ELEKTRIKA</strong> postoji od 2016-te godine. Vlasnik i glavni majstor je Bojčić Milan, koji je pre otvaranja sopstvene radnje 10 godina radio u renomiranom auto servisu u Staroj Pazovi.
-                            <br>
-                        </span>
+                        <img src="slike/reklama.jpg" alt="reklama">
                     </div>
                     <div class="flex-child">
-                        <span>-Reparacija alternatora i alnasera
-                            <br>
-                        </span>
-                        <span>-Kompjuterska dijagnostika
-                            <br>
-                        </span>
-                        <span>-Ugrađivanje ozvučenja
-                            <br>
-                        </span>
-                        <span>-...
-                            <br>
-                        </span>
+                        <img src="slike/reklama.jpg" alt="reklama">
                     </div>
                     <div class="flex-child">
-                        <span>-Redovno servisiranje auto klima
-                            <br>
-                        </span>
-                        <span>-Popravka kvarova na klima uređajima
-                            <br>
-                        </span>
-                        <span>-Dopuna klime 2000 dinara
-                            <br>
-                        </span>
-                        <span>-...
-                            <br>
-                        </span>
+                        <img src="slike/reklama.jpg" alt="reklama">
                     </div>
                     <div class="flex-child">
-                        <a href="kontakt.php">
-                            <img src="slike/reklama.jpg" alt="reklama">
-                        </a>
+                        <img src="slike/reklama.jpg" alt="reklama">
+                    </div>
+                    <div class="flex-child">
+                        <img src="slike/reklama.jpg" alt="reklama">
+                    </div>
+                    <div class="flex-child">
+                        <img src="slike/reklama.jpg" alt="reklama">
                     </div>
                 </div>
                 <?php include("inc/foot.inc.php"); ?>
