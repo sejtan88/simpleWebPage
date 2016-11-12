@@ -7,41 +7,34 @@
     margin: auto;
     border-radius: 0;
 }
-
 .navbar-custom h1 {
     font-weight: 700;
     margin: 0;
 }
-
 .navbar-custom nav {
     display: flex;
     justify-content: flex-end;
 }
-
 .navbar-custom p {
     padding: 0 20px;
     margin: 0;
 }
-
 .navbar-right {
     padding-top: 15px;
     padding-right: 20px;
 }
-
-.navbar-brand img{
+.navbar-brand img {
     position: relative;
     max-height: 100px;
-    padding-bottom:  20px;
+    padding-bottom: 20px;
     margin: 0px;
 }
-
 .navp {
     color: #2b74bf;
     font-size: 2em;
     font-family: sans-serif;
     font-weight: 900;
 }
-
 .nav ul {
     position: relative 30px;
 }
@@ -50,15 +43,13 @@
 
 .header {
     background-color: darkgray;
-    padding: 15px 15px 0px;
+    padding: 0px;
 }
-
 .header .carousel-inner > .item > img,
 .header .carousel-inner > .item > a > img {
     margin: auto;
-    height: 240px;
+    height: 300px;
 }
-
 
 /*MIDDLE*/
 
@@ -68,7 +59,6 @@
     border: solid black 15px;
 }
 
-
 /*FOOTER*/
 
 .footer {
@@ -76,18 +66,15 @@
     border-color: #e7e7e7;
     padding: 10px;
 }
-
 .priredio {
     margin: 0px;
 }
-
 
 /*BODY*/
 
 body {
     background-color: silver;
 }
-
 .flexbox {
     display: flex;
     flex-wrap: wrap;
@@ -95,9 +82,7 @@ body {
     align-items: center;
     background-color: darkgray;
     padding: 10px;
-    
 }
-
 .flex-child {
     flex: 1 1 240px;
     min-height: 180px;
@@ -115,22 +100,17 @@ div h1 {
     font-size: 18px;
     font-family: 'Trirong'
 }
-
 div h3 {
     text-align: center;
     font-family: 'Trirong'
 }
-
 div p {
     text-align: center;
     font-size: 14px;
     font-family: 'Trirong'
 }
-
 .container {
     font-family: "Trirong";
 }
-
-
 
 /*END*/
