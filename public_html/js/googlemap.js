@@ -11,9 +11,11 @@ var gMap = {
                 zoom: 14,
                 center: uluru
             }),
+            iconLink = 'http://bojacelektrika.rs/slike/bojaclogoxs.png',
             marker = new google.maps.Marker({
                 position: uluru,
-                map: map
+                map: map,
+                icon: iconLink
             });
     }
 };
