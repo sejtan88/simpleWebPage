@@ -1,5 +1,8 @@
 /*NAVBAR*/
-
+.navbar {
+    background-color: #ffffff;
+    border: none;
+}
 .navbar-custom {
     font-family: 'Trirong';
     font-size: 18px;
@@ -30,7 +33,7 @@
     margin: 0px;
 }
 .navp {
-    color: #2b74bf;
+    color: #2a73be;
     font-size: 2em;
     font-family: sans-serif;
     font-weight: 900;
@@ -42,9 +45,10 @@
 /*HEADER*/
 
 .header {
-    background-color: darkgray;
-    padding: 0px;
+    background-color: #ffffff;
+    padding: 10px;
 }
+
 .header .carousel-inner > .item > img,
 .header .carousel-inner > .item > a > img {
     margin: auto;
@@ -56,14 +60,27 @@
 #map {
     height: 400px;
     width: 100%;
-    border: solid black 15px;
+    border: solid #2a73be 15px;
+}
+
+.usluge {
+    color: #2a73be;
+}
+.usluge h2 {
+    font-size: 2.5em;
+    text-decoration: underline;
+    text-align: center;
+}
+.usluge > p{
+    font-size: 1.5em;
+}
+.usluge > ul{
+    font-size: 1.5em;
 }
 
 /*FOOTER*/
 
 .footer {
-    background-color: #f8f8f8;
-    border-color: #e7e7e7;
     padding: 10px;
 }
 .priredio {
@@ -73,26 +90,27 @@
 /*BODY*/
 
 body {
-    background-color: silver;
+    background-color: white;
 }
 .flexbox {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    background-color: darkgray;
+    align-items: center;    
+    background-color: white;
     padding: 10px;
 }
 .flex-child {
     flex: 1 1 240px;
     min-height: 180px;
     padding: 10px;
-    background-color: dimgrey;
+    border: 3px solid #ff332f;
+    background-color: #2a73be;
     margin: 5px;
     color: whitesmoke;
 }
 .flex-child strong {
-    color: black;
+    color: #ff332f;
 }
 div h1 {
     text-decoration: underline;
@@ -111,6 +129,21 @@ div p {
 }
 .container {
     font-family: "Trirong";
+}
+
+.onama {
+    border-top: 3px solid #ff332f;
+}
+
+.onama h2, h3 {
+    text-align: center;
+    color: #2a73be;
+}
+
+.onama p {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ff332f;
 }
 
 /*END*/

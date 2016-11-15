@@ -22,9 +22,9 @@
                 <li class="<?= ($activePage == 'usluge') ? 'active':''; ?> dropdown">
                     <a  class="dropdown-toggle" data-toggle="dropdown" href="usluge.php">Usluge<span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Auto klime</a></li>
-                        <li><a href="#">Dijagnostika</a></li>
-                        <li><a href="#">Reparacija alternatora i alnasera</a></li> 
+                        <li><a href="/autoelektrika.php">Auto elektrika</a></li>
+                        <li><a href="/autoklime.php">Auto klime</a></li>
+                        <li><a href="/restruktuiranje.php">Restruktuiranje alnasera i alternatora</a></li> 
                     </ul>
                 </li>
                 <li class="<?= ($activePage == 'kontakt') ? 'active':''; ?>">
