@@ -28,32 +28,16 @@
                     <img src="/slike/usluge/autoelektrika1.jpg" alt="elektrika" class="img-responsive">
                 </div>
                 <div class="flex-child usluge">
-                    <p>
-                        <span>-Kompjuterska dijagnostika
-                            <br>
-                        </span>
-                        <span>-Ugrađivanje radio uređaja
-                            <br>
-                        </span>
-                        <span>-Ugrađivanje ozvučenja
-                            <br>
-                        </span>
-                        <span>-Ugrađivanje centralnih brava
-                            <br>
-                        </span>
-                        <span>-Ugrađivanje alarma
-                            <br>
-                        </span>
-                        <span>-Ugrađivanje specijalne rasvete
-                            <br>
-                        </span>
-                        <span>-Testiranje akomulatora
-                            <br>
-                        </span>
-                        <span>-Testiranje akomulatora
-                            <br>
-                        </span>
-                    </p>
+                    <h2>Auto elektrika</h2>
+                    <ul>
+                        <li>Kompjuterska dijagnostika.</li>
+                        <li>Ugrađivanje radio uređaja.</li>
+                        <li>Ugrađivanje ozvučenja.</li>
+                        <li>Ugrađivanje centralnih brava.</li>
+                        <li>Ugrađivanje alarma.</li>
+                        <li>Ugrađivanje specijalne rasvete.</li>
+                        <li>Testiranje akomulatora.</li>
+                    </ul>
                 </div>
                 <div class="flex-child usluge">
                     <img src="slike/usluge/autoelektrika2.jpg" alt="elektrika" class="img-responsive">
