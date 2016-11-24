@@ -22,13 +22,10 @@
             <span>AUTO SERVIS BRATIĆ
                 <br>
             </span>
+            <span>AUTO MEHANIČAR UŠJAK
+                <br>
+            </span>
             <span>MIKOM AUTO
-                <br>
-            </span>
-            <span>PREKOM AUTO
-                <br>
-            </span>
-            <span>...
                 <br>
             </span>
         </p>

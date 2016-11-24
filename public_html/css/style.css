@@ -1,46 +1,62 @@
 /*NAVBAR*/
+
 .navbar {
     background-color: #ffffff;
     border: none;
 }
+
 .navbar-custom {
     font-family: 'Trirong';
     font-size: 18px;
     max-width: 1170px;
     margin: auto;
+    border-bottom: 3px solid #ff332f;
     border-radius: 0;
 }
+
 .navbar-custom h1 {
     font-weight: 700;
     margin: 0;
 }
+
 .navbar-custom nav {
     display: flex;
     justify-content: flex-end;
 }
+
 .navbar-custom p {
     padding: 0 20px;
     margin: 0;
 }
+
 .navbar-right {
     padding-top: 15px;
     padding-right: 20px;
 }
+
 .navbar-brand img {
     position: relative;
     max-height: 100px;
     padding-bottom: 20px;
     margin: 0px;
 }
+
 .navp {
     color: #2a73be;
     font-size: 2em;
     font-family: sans-serif;
     font-weight: 900;
 }
+
 .nav ul {
     position: relative 30px;
 }
+
+.navbar-toggle-custom {
+    padding: 0px;
+    margin-right: 8px;
+}
+
 
 /*HEADER*/
 
@@ -55,6 +71,7 @@
     height: 300px;
 }
 
+
 /*MIDDLE*/
 
 #map {
@@ -66,40 +83,52 @@
 .usluge {
     color: #2a73be;
 }
+
 .usluge h2 {
     font-size: 2.5em;
     text-decoration: underline;
     text-align: center;
 }
-.usluge > p{
+
+.usluge > p {
     font-size: 1.5em;
 }
-.usluge > ul{
+
+.usluge > ul {
     font-size: 1.5em;
 }
+
 
 /*FOOTER*/
 
 .footer {
     padding: 10px;
+    margin-top: 10px;
+    border-top: 3px solid #ff332f;
 }
+
 .priredio {
     margin: 0px;
 }
+
 
 /*BODY*/
 
 body {
     background-color: white;
+    max-width: 1200px;
+    margin: auto;
 }
+
 .flexbox {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
     background-color: white;
     padding: 10px;
 }
+
 .flex-child {
     flex: 1 1 240px;
     min-height: 180px;
@@ -109,24 +138,29 @@ body {
     margin: 5px;
     color: whitesmoke;
 }
+
 .flex-child strong {
     color: #ff332f;
 }
+
 div h1 {
     text-decoration: underline;
     text-align: center;
     font-size: 18px;
     font-family: 'Trirong'
 }
+
 div h3 {
     text-align: center;
     font-family: 'Trirong'
 }
+
 div p {
     text-align: center;
     font-size: 14px;
     font-family: 'Trirong'
 }
+
 .container {
     font-family: "Trirong";
 }
@@ -135,7 +169,8 @@ div p {
     border-top: 3px solid #ff332f;
 }
 
-.onama h2, h3 {
+.onama h2,
+h3 {
     text-align: center;
     color: #2a73be;
 }
@@ -145,5 +180,22 @@ div p {
     font-weight: bold;
     color: #ff332f;
 }
+
+.autoklima-index {
+    cursor: pointer;
+    background-size: cover;
+    background-image: url("../slike/index/klima-veca.jpg");
+}
+
+.nalepnica-index {
+    cursor: pointer;
+    background-size: cover;
+    background-image: url("../slike/index/nalepnica.jpg");
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
 
 /*END*/

@@ -23,24 +23,22 @@
 <body id="index">
     <?php include("inc/code.inc.php"); ?>
         <?php include("inc/navbar.inc.php"); ?>
-                <div class="container flexbox">
-                    <div class="flex-child">
-                        <img srcset="/slike/usluge/autoklime1m.jpg 1000w, /slike/usluge/autoklime1.jpg 2000w" alt="reklama">
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-6 usluge">
-                        <h2>Auto klime</h2>
-                        <ul>
-                            <li>Dopuna auto klima</li>
-                            <li>Servis auto klima</li>
-                            <li>jos nesto...</li>
-                            <li>jos nessto...</li>
-                        </ul>
-                        <p> nesto o ovoj slici i delatnosti kojom se bavi milan bojcic</p>
-                    </div>
-                    
-                                  
+            <div class="flexbox">
+                <div class="flex-child usluge">
+                    <img src="/slike/usluge/autoklime1.jpg" alt="klima" class="img-responsive">
                 </div>
-                <?php include("inc/foot.inc.php"); ?>
+                <div class="flex-child usluge">
+                    <h2>Auto klime</h2>
+                    <ul>
+                        <li>Dopuna auto klima.</li>
+                        <li>Redovnan servis auto klima.</li>
+                        <li>Popravka kvarova na klima uređajima.</li>
+                    </ul>
+                </div>
+
+
+            </div>
+            <?php include("inc/foot.inc.php"); ?>
 </body>
 
 </html>

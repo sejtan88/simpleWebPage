@@ -23,22 +23,43 @@
 <body id="index">
     <?php include("inc/code.inc.php"); ?>
         <?php include("inc/navbar.inc.php"); ?>
-                <div class="container flexbox">
-                    <div class="flex-child">
-                        <img srcset="/slike/usluge/autoelektrika1.jpg 1000w, /slike/usluge/autoelektrika1.jpg 2000w" alt="reklama">
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                        <p> nesto o ovoj slici i delatnosti kojom se bavi milan bojcic</p>
-                    </div>
-                    
-                    <div class="flex-child">
-                        <img srcset="/slike/usluge/autoelektrika2.jpg 1000w, /slike/usluge/autoelektrika2.jpg 2000w" alt="reklama">
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                        <p> nesto o ovoj slici i delatnosti kojom se bavi milan bojcic</p>
-                    </div>                    
+            <div class="flexbox">
+                <div class="flex-child usluge">
+                    <img src="/slike/usluge/autoelektrika1.jpg" alt="elektrika" class="img-responsive">
                 </div>
-                <?php include("inc/foot.inc.php"); ?>
+                <div class="flex-child usluge">
+                    <p>
+                        <span>-Kompjuterska dijagnostika
+                            <br>
+                        </span>
+                        <span>-Ugrađivanje radio uređaja
+                            <br>
+                        </span>
+                        <span>-Ugrađivanje ozvučenja
+                            <br>
+                        </span>
+                        <span>-Ugrađivanje centralnih brava
+                            <br>
+                        </span>
+                        <span>-Ugrađivanje alarma
+                            <br>
+                        </span>
+                        <span>-Ugrađivanje specijalne rasvete
+                            <br>
+                        </span>
+                        <span>-Testiranje akomulatora
+                            <br>
+                        </span>
+                        <span>-Testiranje akomulatora
+                            <br>
+                        </span>
+                    </p>
+                </div>
+                <div class="flex-child usluge">
+                    <img src="slike/usluge/autoelektrika2.jpg" alt="elektrika" class="img-responsive">
+                </div>
+            </div>
+            <?php include("inc/foot.inc.php"); ?>
 </body>
 
 </html>

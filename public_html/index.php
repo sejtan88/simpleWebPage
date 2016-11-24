@@ -25,13 +25,14 @@
         <?php include("inc/navbar.inc.php"); ?>
             <?php include("inc/head.inc.php"); ?>
                 <div class="container flexbox">
-                    <div class="flex-child">
-                        <span>Autoelektričarska radnja <strong>BOJAC ELEKTRIKA</strong> postoji od 2016-te godine. Vlasnik i glavni majstor je Bojčić Milan, koji je pre otvaranja sopstvene radnje 10 godina radio u renomiranom auto servisu u Staroj Pazovi.
+                    <div class="flex-child cursor-pointer" onclick="window.location='kontakt.php';">
+                        <span>Autoelektričarska radnja
+                            <strong>BOJAC ELEKTRIKA</strong> postoji od 2016-te godine. Vlasnik i glavni majstor je Bojčić Milan, koji je pre otvaranja sopstvene radnje 10 godina radio u renomiranom auto servisu u Staroj Pazovi.
                             <br>
                         </span>
                     </div>
-                    <div class="flex-child">
-                        <span>-Reparacija alternatora i alnasera
+                    <div class="flex-child cursor-pointer" onclick="window.location='autoelektrika.php';">
+                        <span>-Reparacija alternatora i anlasera
                             <br>
                         </span>
                         <span>-Kompjuterska dijagnostika
@@ -40,28 +41,34 @@
                         <span>-Ugrađivanje ozvučenja
                             <br>
                         </span>
-                        <span>-...
+                        <span>-Ugrađivanje centralnih brava
+                            <br>
+                        </span>
+                        <span>-Ugrađivanje specijalne rasvete
+                            <br>
+                        </span>
+                        <span>-Testiranje akomulatora
                             <br>
                         </span>
                     </div>
-                    <div class="flex-child">
-                        <span>-Redovno servisiranje auto klima
+                    <div class="flex-child autoklima-index" onclick="window.location='autoklime.php';">
+                        <div>
                             <br>
-                        </span>
-                        <span>-Popravka kvarova na klima uređajima
                             <br>
-                        </span>
-                        <span>-Dopuna klime 2000 dinara
                             <br>
-                        </span>
-                        <span>-...
                             <br>
-                        </span>
+                            <span>-Dopunjavanje klima uređaja
+                                <br>
+                            </span>
+                            <span>-Redovno servisiranje auto klima
+                                <br>
+                            </span>
+                            <span>-Popravka kvarova na klima uređajima
+                                <br>
+                            </span>
+                        </div>
                     </div>
-                    <div class="flex-child">
-                        <a href="kontakt.php">
-                            <img src="slike/reklama.jpg" alt="reklama">
-                        </a>
+                    <div class="flex-child nalepnica-index" onclick="window.location='restruktuiranje.php';">
                     </div>
                 </div>
                 <?php include("inc/foot.inc.php"); ?>
