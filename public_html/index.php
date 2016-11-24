@@ -47,7 +47,7 @@
                         <span>-Ugrađivanje specijalne rasvete
                             <br>
                         </span>
-                        <span>-Testiranje akomulatora
+                        <span>-Testiranje akumulatora
                             <br>
                         </span>
                     </div>

@@ -36,7 +36,7 @@
                         <li>Ugrađivanje centralnih brava.</li>
                         <li>Ugrađivanje alarma.</li>
                         <li>Ugrađivanje specijalne rasvete.</li>
-                        <li>Testiranje akomulatora.</li>
+                        <li>Testiranje akumulatora.</li>
                     </ul>
                 </div>
                 <div class="flex-child usluge">
